@@ -46,7 +46,7 @@ Install:
 
 Bundler:
 
-    gem "sixarm_ruby_range_parse", "~>1.0.0"	
+    gem "sixarm_ruby_range_parse", "~>1.0.1"	
 
 Require:
 
