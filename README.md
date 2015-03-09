@@ -1,4 +1,4 @@
-# SixArm.com » Ruby » <br> Range.parse method to convert text to a Range object.
+# Ruby » <br> Range.parse method to convert text to a Range object.
 
 * Doc: <http://sixarm.com/sixarm_ruby_range_parse/doc>
 * Gem: <http://rubygems.org/gems/sixarm_ruby_range_parse>
