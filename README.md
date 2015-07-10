@@ -20,22 +20,6 @@ To exclude the end item, use three dots:
 
     Range.parse("a...z") #=> "a"..."z"
 
-The parse method calls #to_s on its input:
-
-    class Foo
-      def to_s
-        "hello..world"
-      end
-    end
-
-    Range.parse(Foo.new) #=> "hello".."world"
-
-The parse method uses the same dot notation as Range#to_s which enables round trips:
-
-    range = Range.parse("hello..world")
-    range.to_s #=> "hello..world"
-
-
 For docs go to <http://sixarm.com/sixarm_ruby_range_parse/doc>
 
 Want to help? We're happy to get pull requests.
@@ -67,3 +51,23 @@ To enable high security for all our gems:
 To install with high security:
 
     gem install sixarm_ruby_range_parse --trust-policy HighSecurity
+
+## Parsing objects
+
+For convenience, the parse method calls #to_s on its input.
+
+Example:
+
+    class Foo < Array
+      def to_s
+        "a..z"
+      end
+    end
+
+    foo = Foo.new
+    Range.parse(foo) #=> "a".."z"
+
+For convenience, the parse method uses the same dot notation as Range#to_s, which enables round trips:
+
+    range = Range.parse("a..z") #=> "a".."z"
+    range.to_s #=> "a..z"
