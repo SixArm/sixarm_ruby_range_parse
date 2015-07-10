@@ -1,4 +1,7 @@
-# Ruby » <br> Range.parse method to convert text to a Range object.
+# SixArm.com » Ruby » <br> Range.parse method to convert text to a Range object.
+
+[![Code Climate](https://codeclimate.com/github/SixArm/sixarm_ruby_range_parse.png)](https://codeclimate.com/github/SixArm/sixarm_ruby_range_parse)
+[![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_range_parse.png)](https://travis-ci.org/SixArm/sixarm_ruby_range_parse)
 
 * Doc: <http://sixarm.com/sixarm_ruby_range_parse/doc>
 * Gem: <http://rubygems.org/gems/sixarm_ruby_range_parse>
@@ -24,12 +27,12 @@ The parse method calls #to_s on its input:
         "hello..world"
       end
     end
-   
+
     Range.parse(Foo.new) #=> "hello".."world"
 
 The parse method uses the same dot notation as Range#to_s which enables round trips:
 
-    range = Range.parse("hello..world") 
+    range = Range.parse("hello..world")
     range.to_s #=> "hello..world"
 
 
@@ -46,7 +49,7 @@ Install:
 
 Bundler:
 
-    gem "sixarm_ruby_range_parse", "~>1.0.1"	
+    gem "sixarm_ruby_range_parse", ">=1.0.2", "<2"
 
 Require:
 
