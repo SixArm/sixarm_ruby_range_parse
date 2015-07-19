@@ -2,8 +2,10 @@
 
 <!--HEADER-OPEN-->
 
-[![Code Climate](https://codeclimate.com/github/SixArm/sixarm_ruby_range_parse.png)](https://codeclimate.com/github/SixArm/sixarm_ruby_range_parse)
+[![Gem Version](https://badge.fury.io/rb/sixarm_ruby_range_parse.svg)](http://badge.fury.io/rb/sixarm_ruby_range_parse)
 [![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_range_parse.png)](https://travis-ci.org/SixArm/sixarm_ruby_range_parse)
+[![Code Climate](https://codeclimate.com/github/SixArm/sixarm_ruby_range_parse.png)](https://codeclimate.com/github/SixArm/sixarm_ruby_range_parse)
+[![Coverage Status](https://coveralls.io/repos/SixArm/sixarm_ruby_range_parse/badge.svg?branch=master&service=github)](https://coveralls.io/github/SixArm/sixarm_ruby_range_parse?branch=master)
 
 * Git: <https://github.com/sixarm/sixarm_ruby_range_parse>
 * Doc: <http://sixarm.com/sixarm_ruby_range_parse/doc>
@@ -38,17 +40,17 @@ Want to help? We're happy to get pull requests.
 
 To install using a Gemfile, add this:
 
-    gem "sixarm_ruby_range_parse", ">= 1.0.2", "< 2"
+    gem "sixarm_ruby_range_parse", ">= 1.0.3", "< 2"
 
 To install using the command line, run this:
 
-    gem install sixarm_ruby_range_parse -v ">= 1.0.2, < 2"
+    gem install sixarm_ruby_range_parse -v ">= 1.0.3, < 2"
 
 To install using the command line with high security, run this:
 
     wget http://sixarm.com/sixarm.pem
     gem cert --add sixarm.pem && gem sources --add http://sixarm.com
-    gem install sixarm_ruby_range_parse -v ">= 1.0.2, < 2" --trust-policy HighSecurity
+    gem install sixarm_ruby_range_parse -v ">= 1.0.3, < 2" --trust-policy HighSecurity
 
 To require the gem in your code:
 

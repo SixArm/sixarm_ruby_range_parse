@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.name           = "sixarm_ruby_range_parse"
   s.summary        = "SixArm.com » Ruby » Range.parse method"
   s.description    = "Range.parse method to convert text to a Range object"
-  s.version        = "1.0.2"
+  s.version        = "1.0.3"
 
   s.author         = "SixArm"
   s.email          = "sixarm@sixarm.com"
@@ -22,10 +22,12 @@ Gem::Specification.new do |s|
   s.files = [
     "Rakefile",
     "lib/sixarm_ruby_range_parse.rb",
+    "lib/sixarm_ruby_range_parse/range.rb",    
   ]
 
   s.test_files = [
     "test/sixarm_ruby_range_parse_test.rb",
+    "test/sixarm_ruby_range_parse_test/range_test.rb",    
   ]
 
   s.add_development_dependency('minitest', '>= 5.7.0', '< 6')
