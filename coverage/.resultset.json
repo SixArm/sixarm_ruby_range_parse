@@ -7,6 +7,14 @@
         null,
         null,
         null,
+        1
+      ],
+      "/Users/joel/git/sixarm/sixarm_ruby_range_parse/lib/sixarm_ruby_range_parse/range.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
         1,
         null,
         null,
@@ -42,8 +50,47 @@
         null,
         null,
         null
+      ],
+      "/Users/joel/git/sixarm/sixarm_ruby_range_parse/test/sixarm_ruby_range_parse_test/range_test.rb": [
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
       ]
     },
-    "timestamp": 1436510914
+    "timestamp": 1437282016
   }
 }

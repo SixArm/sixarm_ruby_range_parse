@@ -63,26 +63,36 @@
 
     <div id="content"><div id='filecontents'>
 <h1 id="label-SixArm.com+-C2-BB+Ruby+-C2-BB++Range.parse+method+to+convert+text+to+a+Range+object.">SixArm.com » Ruby » <br> Range.parse method to convert text to a Range object.</h1>
-
-<p><a
+<!--HEADER-OPEN-->
+<p><a href="http://badge.fury.io/rb/sixarm_ruby_range_parse"><img
+src="https://badge.fury.io/rb/sixarm_ruby_range_parse.svg"></a> <a
+href="https://travis-ci.org/SixArm/sixarm_ruby_range_parse"><img
+src="https://travis-ci.org/SixArm/sixarm_ruby_range_parse.png"></a> <a
 href="https://codeclimate.com/github/SixArm/sixarm_ruby_range_parse"><img
 src="https://codeclimate.com/github/SixArm/sixarm_ruby_range_parse.png"></a>
-<a href="https://travis-ci.org/SixArm/sixarm_ruby_range_parse"><img
-src="https://travis-ci.org/SixArm/sixarm_ruby_range_parse.png"></a></p>
+<a
+href="https://coveralls.io/github/SixArm/sixarm_ruby_range_parse?branch=master"><img
+src="https://coveralls.io/repos/SixArm/sixarm_ruby_range_parse/badge.svg?branch=master&service=github"></a></p>
 <ul><li>
+<p>Git: <a
+href="https://github.com/sixarm/sixarm_ruby_range_parse">github.com/sixarm/sixarm_ruby_range_parse</a></p>
+</li><li>
 <p>Doc: <a
 href="http://sixarm.com/sixarm_ruby_range_parse/doc">sixarm.com/sixarm_ruby_range_parse/doc</a></p>
 </li><li>
 <p>Gem: <a
-href="http://rubygems.org/gems/sixarm_ruby_range_parse">rubygems.org/gems/sixarm_ruby_range_parse</a></p>
+href="https://rubygems.org/gems/sixarm_ruby_range_parse">rubygems.org/gems/sixarm_ruby_range_parse</a></p>
 </li><li>
-<p>Repo: <a
-href="http://github.com/sixarm/sixarm_ruby_range_parse">github.com/sixarm/sixarm_ruby_range_parse</a></p>
-</li><li>
-<p>Email: Joel Parker Henderson, <a
+<p>Contact: Joel Parker Henderson, <a
 href="mailto:joel@sixarm.com">joel@sixarm.com</a></p>
+</li><li>
+<p>Changes: See CHANGES.md file.</p>
+</li><li>
+<p>License: See LICENSE.md file.</p>
+</li><li>
+<p>Helping: See CONTRIBUTING.md file.</p>
 </li></ul>
-
+<!--HEADER-SHUT-->
 <h2 id="label-Introduction">Introduction</h2>
 
 <p>Parse a text string to a range.</p>
@@ -97,61 +107,59 @@ href="mailto:joel@sixarm.com">joel@sixarm.com</a></p>
 <pre class="code ruby"><code class="ruby"><span class='const'>Range</span><span class='period'>.</span><span class='id identifier rubyid_parse'>parse</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>a...z</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span> <span class='comment'>#=&gt; &quot;a&quot;...&quot;z&quot;
 </span></code></pre>
 
-<p>The parse method calls #to_s on its input:</p>
-
-<pre class="code ruby"><code class="ruby"><span class='kw'>class</span> <span class='const'>Foo</span>
-  <span class='kw'>def</span> <span class='id identifier rubyid_to_s'>to_s</span>
-    <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>hello..world</span><span class='tstring_end'>&quot;</span></span>
-  <span class='kw'>end</span>
-<span class='kw'>end</span>
-
-<span class='const'>Range</span><span class='period'>.</span><span class='id identifier rubyid_parse'>parse</span><span class='lparen'>(</span><span class='const'>Foo</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='rparen'>)</span> <span class='comment'>#=&gt; &quot;hello&quot;..&quot;world&quot;
-</span></code></pre>
-
-<p>The parse method uses the same dot notation as Range#to_s which enables
-round trips:</p>
-
-<pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_range'>range</span> <span class='op'>=</span> <span class='const'>Range</span><span class='period'>.</span><span class='id identifier rubyid_parse'>parse</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>hello..world</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
-<span class='id identifier rubyid_range'>range</span><span class='period'>.</span><span class='id identifier rubyid_to_s'>to_s</span> <span class='comment'>#=&gt; &quot;hello..world&quot;
-</span></code></pre>
-
 <p>For docs go to <a
 href="http://sixarm.com/sixarm_ruby_range_parse/doc">sixarm.com/sixarm_ruby_range_parse/doc</a></p>
 
 <p>Want to help? We&#39;re happy to get pull requests.</p>
+<!--INSTALL-OPEN-->
+<h2 id="label-Install">Install</h2>
 
-<h2 id="label-Install+quickstart">Install quickstart</h2>
+<p>To install using a Gemfile, add this:</p>
 
-<p>Install:</p>
-
-<pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_gem'>gem</span> <span class='id identifier rubyid_install'>install</span> <span class='id identifier rubyid_sixarm_ruby_range_parse'>sixarm_ruby_range_parse</span>
+<pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_gem'>gem</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>sixarm_ruby_range_parse</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&gt;= 1.0.3</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&lt; 2</span><span class='tstring_end'>&quot;</span></span>
 </code></pre>
 
-<p>Bundler:</p>
+<p>To install using the command line, run this:</p>
 
-<pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_gem'>gem</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>sixarm_ruby_range_parse</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&gt;=1.0.2</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&lt;2</span><span class='tstring_end'>&quot;</span></span>
-</code></pre>
+<pre class="code ruby"><code class="ruby">gem install sixarm_ruby_range_parse -v &quot;&gt;= 1.0.3, &lt; 2&quot;</code></pre>
 
-<p>Require:</p>
+<p>To install using the command line with high security, run this:</p>
+
+<pre class="code ruby"><code class="ruby">wget http://sixarm.com/sixarm.pem
+gem cert --add sixarm.pem &amp;&amp; gem sources --add http://sixarm.com
+gem install sixarm_ruby_range_parse -v &quot;&gt;= 1.0.3, &lt; 2&quot; --trust-policy HighSecurity</code></pre>
+
+<p>To require the gem in your code:</p>
 
 <pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_require'>require</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>sixarm_ruby_range_parse</span><span class='tstring_end'>&quot;</span></span>
 </code></pre>
+<!--INSTALL-SHUT-->
+<h2 id="label-Parsing+objects">Parsing objects</h2>
 
-<h2 id="label-Install+with+security+-28optional-29">Install with security (optional)</h2>
+<p>For convenience, the parse method calls #to_s on its input.</p>
 
-<p>To enable high security for all our gems:</p>
+<p>Example:</p>
 
-<pre class="code ruby"><code class="ruby">wget http://sixarm.com/sixarm.pem
-gem cert --add sixarm.pem
-gem sources --add http://sixarm.com</code></pre>
+<pre class="code ruby"><code class="ruby"><span class='kw'>class</span> <span class='const'>Foo</span> <span class='op'>&lt;</span> <span class='const'>Array</span>
+  <span class='kw'>def</span> <span class='id identifier rubyid_to_s'>to_s</span>
+    <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>a..z</span><span class='tstring_end'>&quot;</span></span>
+  <span class='kw'>end</span>
+<span class='kw'>end</span>
 
-<p>To install with high security:</p>
+<span class='id identifier rubyid_foo'>foo</span> <span class='op'>=</span> <span class='const'>Foo</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span>
+<span class='const'>Range</span><span class='period'>.</span><span class='id identifier rubyid_parse'>parse</span><span class='lparen'>(</span><span class='id identifier rubyid_foo'>foo</span><span class='rparen'>)</span> <span class='comment'>#=&gt; &quot;a&quot;..&quot;z&quot;
+</span></code></pre>
 
-<pre class="code ruby"><code class="ruby">gem install sixarm_ruby_range_parse --trust-policy HighSecurity</code></pre>
+<p>For convenience, the parse method uses the same dot notation as Range#to_s,
+which enables round trips:</p>
+
+<pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_range'>range</span> <span class='op'>=</span> <span class='const'>Range</span><span class='period'>.</span><span class='id identifier rubyid_parse'>parse</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>a..z</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span> <span class='comment'>#=&gt; &quot;a&quot;..&quot;z&quot;
+</span><span class='id identifier rubyid_range'>range</span><span class='period'>.</span><span class='id identifier rubyid_to_s'>to_s</span> <span class='comment'>#=&gt; &quot;a..z&quot;
+</span></code></pre>
 </div></div>
 
     <div id="footer">
-  Generated on Fri Jul 10 00:47:22 2015 by
+  Generated on Sat Jul 18 23:00:15 2015 by
   <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
   0.8.7.6 (ruby-2.2.2).
 </div>
