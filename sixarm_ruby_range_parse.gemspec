@@ -3,7 +3,7 @@
 Gem::Specification.new do |s|
 
   s.name           = "sixarm_ruby_range_parse"
-  s.summary        = "SixArm.com » Ruby » Range.parse method"
+  s.summary        = "SixArm.com → Ruby → Range.parse method"
   s.description    = "Range.parse method to convert text to a Range object"
   s.version        = "1.0.3"
 
