@@ -4,7 +4,7 @@
 
 [![Gem Version](https://badge.fury.io/rb/sixarm_ruby_range_parse.svg)](http://badge.fury.io/rb/sixarm_ruby_range_parse)
 [![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_range_parse.png)](https://travis-ci.org/SixArm/sixarm_ruby_range_parse)
-[![Code Climate](https://codeclimate.com/github/SixArm/sixarm_ruby_range_parse.png)](https://codeclimate.com/github/SixArm/sixarm_ruby_range_parse)
+[![Code Climate Maintainability](https://api.codeclimate.com/v1/badges/$id/maintainability)](https://codeclimate.com/github/SixArm/$dir/maintainability)
 [![Coverage Status](https://coveralls.io/repos/SixArm/sixarm_ruby_range_parse/badge.svg?branch=master&service=github)](https://coveralls.io/github/SixArm/sixarm_ruby_range_parse?branch=master)
 
 * Git: <https://github.com/sixarm/sixarm_ruby_range_parse>
