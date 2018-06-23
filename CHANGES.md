@@ -1,5 +1,6 @@
 # Changes
 
+* 2018-06-22 2.0.0 Update to Ruby 2.5, testing gems, etc.
 * 2017-08-14 1.0.5 Update minitest expections
 * 2017-08-13 1.0.4 Update to Ruby 2.4, spdx licenses, rake test, etc.
 * 2015-07-18 1.0.3 Improve quality assurance

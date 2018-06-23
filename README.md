@@ -4,14 +4,13 @@
 
 [![Gem Version](https://badge.fury.io/rb/sixarm_ruby_range_parse.svg)](http://badge.fury.io/rb/sixarm_ruby_range_parse)
 [![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_range_parse.png)](https://travis-ci.org/SixArm/sixarm_ruby_range_parse)
-[![Code Climate Maintainability](https://api.codeclimate.com/v1/badges/6771c9cc89d819478e12/maintainability)](https://codeclimate.com/github/SixArm/sixarm_ruby_range_parse/maintainability)
-[![Coverage Status](https://coveralls.io/repos/SixArm/sixarm_ruby_range_parse/badge.svg?branch=master&service=github)](https://coveralls.io/github/SixArm/sixarm_ruby_range_parse?branch=master)
+[![Code Climate](https://api.codeclimate.com/v1/badges/6771c9cc89d819478e12/maintanability)](https://codeclimate.com/github/SixArm/sixarm_ruby_range_parse/maintainability)
 
-* Git: <https://github.com/sixarm/sixarm_ruby_range_parse>
+* Git: <https://github.com/SixArm/sixarm_ruby_range_parse>
 * Doc: <http://sixarm.com/sixarm_ruby_range_parse/doc>
 * Gem: <https://rubygems.org/gems/sixarm_ruby_range_parse>
 * Contact: Joel Parker Henderson, <joel@sixarm.com>
-* Project: [Changes](CHANGES.md), [License](LICENSE.md), [Contributing](CONTRIBUTING.md).
+* Project: [changes](CHANGES.md), [license](LICENSE.md), [contributing](CONTRIBUTING.md).
 
 <!--header-shut-->
 
@@ -32,17 +31,19 @@ For docs go to <http://sixarm.com/sixarm_ruby_range_parse/doc>
 Want to help? We're happy to get pull requests.
 
 
-<!--install-opent-->
+<!--install-open-->
 
 ## Install
 
 ### Gem
 
-Run this command in your shell or terminal:
+To install this gem in your shell or terminal:
 
     gem install sixarm_ruby_range_parse
 
-Or add this to your Gemfile:
+### Gemfile
+
+To add this gem to your Gemfile:
 
     gem 'sixarm_ruby_range_parse'
 
